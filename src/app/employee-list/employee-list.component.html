@@ -1,0 +1,13 @@
+<section>
+  <h2>Item List</h2>
+  <a href="/employee/new">Add Item</a>
+  <ul>
+    <li *ngFor="let item of items">
+      {{ item.username }}
+      <div>
+        <a href="employee/{{item.id}}">Edit {{item.username}}</a>
+        <button (click)="deleteItem(item.id)">Delete {{item.username}}</button>
+      </div>
+    </li>
+  </ul>
+</section>

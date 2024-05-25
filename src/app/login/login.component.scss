@@ -1,0 +1,13 @@
+form {
+    border-radius: 12px;
+    color: black;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    button {
+        margin-top: 12px;
+    }
+}

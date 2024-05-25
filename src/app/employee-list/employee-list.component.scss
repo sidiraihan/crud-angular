@@ -1,0 +1,42 @@
+section{
+    ul {
+        padding: 0;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        border-radius: 12px;
+        background-color: #eaeaea;
+        list-style-type: none;
+
+        padding: 12px;
+        div {
+            display: flex;
+            gap: 8px;
+            a {
+                background-color: yellow;
+            }
+            button {
+                color: white;
+                background-color: red;
+            }
+            a, button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                font-size: 12px;
+                height: 100%;
+                border: transparent;
+                padding: 0 8px 0 8px;
+                margin: 0;
+                text-decoration: none;
+                border-radius: 8px;
+            }
+        }
+    
+    }
+}
+
